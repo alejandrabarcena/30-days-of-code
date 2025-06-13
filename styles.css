@@ -1,0 +1,57 @@
+/* Base styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  background: linear-gradient(to bottom right, #fcd3e1, #c8b6ff);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 25px rgba(255, 192, 203, 0.6);
+  max-width: 420px;
+  width: 90%;
+}
+
+/* Icon image */
+.icono {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(2px 4px 6px #f39ac0);
+}
+
+/* Intro text */
+.intro {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+/* GitHub button */
+.btn {
+  background-color: #a26aff;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #da70d6;
+  box-shadow: 0 0 10px #da70d6;
+}
