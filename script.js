@@ -12,8 +12,3 @@ window.addEventListener('DOMContentLoaded', () => {
 
   console.log("✨ ¡Landing 30 Days of Code cargada con flow geekgirl!");
 });
-/* 👇 Estas líneas son necesarias para la animación del script.js */
-.container {
-  opacity: 0;              /* Empieza invisible */
-  transform: translateY(20px); /* Posición inicial animada */
-}
