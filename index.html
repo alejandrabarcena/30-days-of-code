@@ -3,38 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🧠💻 30 Days of Code – Geekgirl Edition</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>🌈 30 Días de Código</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4ec, #e0d4fc);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #9c27b0;
+      margin-bottom: 1rem;
+    }
+    .day-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    a {
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      background: #ff4081;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.2s, background 0.3s;
+    }
+    a:hover {
+      transform: scale(1.05);
+      background: #f50057;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <main class="container">
-    <h1>🧠💻 30 Days of Code – Geekgirl Edition</h1>
-    <p class="intro">
-      Reto personal de programación, café en mano ☕ y Patsy a los pies 🐾.<br>
-      Python, poder y estilo neurodivergente 💖
-    </p>
-
-    <a href="https://github.com/alejandrabarcena/30-days-of-code" target="_blank" class="btn">
-      ⭐ Ver en GitHub
-    </a>
-
-    <!-- 📅 Sección de botones por día -->
-    <section class="dias">
-      <h3>📅 Accede a cada día del reto:</h3>
-      <div class="botones-dias">
-        <a href="python/day0_hello_world/day0_hello_world.py" class="btn-dia" target="_blank">Día 0</a>
-        <a href="python/day1_data_types/day1_data_types.py" class="btn-dia" target="_blank">Día 1</a>
-        <!-- Continúa agregando más días -->
-      </div>
-    </section>
-
-    <div class="firma">
-      <p>Hecho con 💻, ☕ y 🧠 por Alejandra Bárcena | @geekgirl</p>
-    </div>
-  </main>
-
-  <footer class="footer"></footer>
-
-  <script src="script.js"></script>
+  <h1>🚀 30 Días de Código</h1>
+  <div class="day-links">
+    <a href="day1/index.html">🟢 Día 1: Hello World</a>
+    <a href="day2/index.html">🔵 Día 2: Operadores matemáticos</a>
+    <a href="#">🔜 Día 3: Próximamente</a>
+  </div>
+  <footer>
+    💻 Con 💖 por Alejandra Bárcena | #WomenInTech #Python #GeekGirl
+  </footer>
 </body>
 </html>
