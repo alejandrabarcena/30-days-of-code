@@ -55,3 +55,47 @@ body {
   background-color: #da70d6;
   box-shadow: 0 0 10px #da70d6;
 }
+
+/* Día del reto section */
+.dias {
+  margin-top: 2rem;
+}
+
+.dias h3 {
+  color: #6a1b9a;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Botones para días */
+.botones-dias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.btn-dia {
+  background-color: #f472b6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.9rem;
+}
+
+.btn-dia:hover {
+  background-color: #ec4899;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ec4899;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+}
