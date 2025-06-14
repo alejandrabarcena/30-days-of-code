@@ -20,17 +20,9 @@ body {
   box-shadow: 0 0 25px rgba(255, 192, 203, 0.6);
   max-width: 420px;
   width: 90%;
-  opacity: 0; /* Para la animación inicial */
+  opacity: 0; /* Para animación inicial */
   transform: translateY(20px);
   transition: all 1s ease;
-}
-
-/* Icon image (opcional si se usa de nuevo) */
-.icono {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 1rem;
-  filter: drop-shadow(2px 4px 6px #f39ac0);
 }
 
 /* Intro text */
@@ -40,7 +32,7 @@ body {
   line-height: 1.6;
 }
 
-/* GitHub button */
+/* Botón principal */
 .btn {
   background-color: #a26aff;
   color: #fff;
@@ -98,15 +90,14 @@ body {
   transform: scale(1.05);
 }
 
-/* Animación de entrada escalonada */
+/* Animación escalonada para botones */
 .btn-dia:nth-child(1) { animation-delay: 0.3s; }
 .btn-dia:nth-child(2) { animation-delay: 0.5s; }
 .btn-dia:nth-child(3) { animation-delay: 0.7s; }
 .btn-dia:nth-child(4) { animation-delay: 0.9s; }
 .btn-dia:nth-child(5) { animation-delay: 1.1s; }
-/* Continúa agregando más según la cantidad de días */
+.btn-dia:nth-child(6) { animation-delay: 1.3s; }
 
-/* Animación keyframes */
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -114,20 +105,19 @@ body {
   }
 }
 
-/* Footer */
-footer {
-  margin-top: 2rem;
-  font-size: 0.8rem;
-  color: #666;
-  text-align: center;
-}
-
-/* Firma adicional si la colocas dentro del contenedor */
+/* Firma */
 .firma {
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #777;
   text-align: center;
   opacity: 0.8;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #666;
 }
 
